@@ -20,7 +20,12 @@ Run the artisan setup command to initialize and start monitoring queue jobs in y
 
 <pre class="command-line language-bash" data-prompt="$"><code>php artisan qmonitor:setup <span class="pl-k">&lt;</span>setup-key<span class="pl-k">&gt;</span></code></pre>
 
-This command will handle a few things for you, like generating a payload signing secret, publishing the package config file and adding some config keys to your .env file.
+This command will handle a few things for you:
+ - it will generate a signing secret and send it to the setup endpoint;
+ - it will publish the qmonitor.php config file into your Laravel app configs folder;
+ - it will add the credential keys and values to the `.env` file;
+ - it will add the credential keys to your the `.env.example` file;
+ - it will send a heartbeat to [qmonitor.io](https://qmonitor.io).
 
 > **IMPORTANT!** This command will autogenerate a secret used to sign the requests and make sure the payload is received by our servers without being tampered with. If you're monitoring queues from multiple environments, simply copy the `QMONITOR_APP_ID` and `QMONITOR_SECRET` keys to your other `.env` files.
 
