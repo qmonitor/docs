@@ -1,6 +1,6 @@
 # Qmonitor.io Documentation
 
-You can find the online version of the Qmonitor documentation at [https://qmonitor.io/docs](https://qmonitor.io/docs) asd
+You can find the online version of the Qmonitor documentation at [https://qmonitor.io/docs](https://qmonitor.io/docs)
 
 ## Contribution Guidelines
 
