@@ -2,13 +2,13 @@
 
 ## Step 1 - Install the collector package
 
-The first step is installing our collector package into the Laravel app you wish to monitor.
+The first step is installing our collector package into the Laravel app you wish to monitor. By default, the collector works with Laravel versions 7.x and 8.x.
 
 <pre class="command-line language-bash" data-prompt="$"><code>composer require qmonitor/laravel-qmonitor-collector</code></pre>
 
-> Note: if you are using Laravel 5.x or 6.x you will need to use version 1.x of the collector package
+> Note: We have a collector that is compatible with Laravel versions 5.7, 5.8 or 6.x. For this to work you will need to use version 1.x of the collector package.
 
-<pre class="command-line language-bash" data-prompt="$"><code>composer require qmonitor/laravel-qmonitor-collector:^2.0</code></pre>
+<pre class="command-line language-bash" data-prompt="$"><code>composer require qmonitor/laravel-qmonitor-collector:^1.0</code></pre>
 
 ## Step 2 - Setup
 
