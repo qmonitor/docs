@@ -6,7 +6,7 @@ The first step is installing our collector package into the Laravel app you wish
 
 <pre class="command-line language-bash" data-prompt="$"><code>composer require qmonitor/laravel-qmonitor-collector</code></pre>
 
-> Note: We have a collector that is compatible with Laravel versions 5.7, 5.8 and 6.x. For these versions you will need to require the version 1.x of the collector package.
+> The v2.0 of this package is only compatible with Laravel 7.x and 8.x, If you're using Laravel 5.7, 5.8 or 6.x, install the v1.0 of this package.
 
 <pre class="command-line language-bash" data-prompt="$"><code>composer require qmonitor/laravel-qmonitor-collector:^1.0</code></pre>
 
